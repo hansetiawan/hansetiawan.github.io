@@ -1,21 +1,3 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 23:03:18 Aug 10, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 6:36:07 Dec 19, 2016.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-//
-//  iWeb - navbar.js
-//  Copyright (c) 2007-2008 Apple Inc. All rights reserved.
-//
-
 var NavBar=Class.create(Widget,{widgetIdentifier:"com-apple-iweb-widget-NavBar",initialize:function($super,instanceID,widgetPath,sharedPath,sitePath,preferences,runningInApp)
 {if(instanceID)
 {$super(instanceID,widgetPath,sharedPath,sitePath,preferences,runningInApp);if(!this.preferenceForKey("useStaticFeed")&&this.preferenceForKey("dotMacAccount"))
