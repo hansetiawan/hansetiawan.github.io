@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:11px;
+	text-align:center;
+	color: #003366; /* Duke Blue */
+	background-color: #EBEBEB;  
+	line-height: 1.3em;
+	vertical-align: top;
+	z-index:-999;
+	background-image:url(../image/graduate.jpg);
+	background-size: 1400px 500px; /* Dont do percent, picture will weirdly shrink*/
+	background-position: top center;
+	background-repeat:no-repeat;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: darkslategrey;
+	line-height: 120%;
+	vertical-align: middle;
+	text-align:left;
+	font-family:"Calibri";
+	font-size: 18px;
+	z-index: -999;
+}
+
+
+td {
+	padding:0px;
+	vertical-align:top;
+	border-width: 0;
+}
+
+
+.primaryheader {
+	height: 65px;
+	padding-top: 5px;
+	background-color: #001A57;
+	background-image:url(../image/header.png);
+	color: aliceblue;
+	clear:both;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.secondaryheader {
+	height: 50px;
+	background-color: #2f3036;
+	clear:both;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.decorationheader {
+	height: 18px;
+	background-color: #616162;
+	clear:both;
+	text-align: center;
+	vertical-align: middle;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-family:"Trebuchet MS";
+  font-size:50px;
+}
+
+.main {
+	background-color: #DCDCDC;
+	width: 70%; /* percent looks weird*/
+	margin-top: 6.5%;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 2.5%;
+	outline:none;
+    box-shadow:0 0 15px #003366;
+	border-top-left-radius: 25px;
+   	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+   	border-bottom-right-radius: 25px;
+	align-self: center;
+	
+}
+
+.page_title {
+	width:  70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	font-size: 48px;
+	text-align: center;
+}
+
+.heading1 {
+	width:  90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: auto;
+	padding-right: 0px;
+	padding-bottom: auto;
+	font-size: 32px;
+	text-align: auto;
+	z-index: -999;
+}
+
+.heading2 {
+	width:  90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: auto;
+	padding-right: 0px;
+	padding-bottom: auto;
+	font-size: 24px;
+	text-align: auto;
+	font-style: italic;
+	z-index: -999;
+}
