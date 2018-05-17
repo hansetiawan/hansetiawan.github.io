@@ -171,3 +171,7 @@ span {
 	font-style: italic;
 	z-index: -999;
 }
+
+.mid {
+    vertical-align:middle
+    }
