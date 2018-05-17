@@ -1,6 +1,6 @@
 document.getElementById("headerPage").innerHTML =
 '<header class = "primaryheader">'+
-	'<span>Samei Group</span>'+
+	'<span><a href="./">Samei Group</a></span>'+
 		 '</header>'+
 
 '<header class = "secondaryheader">'+
