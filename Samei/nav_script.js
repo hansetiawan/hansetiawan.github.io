@@ -1,9 +1,4 @@
-document.getElementById("headerPage").innerHTML =
-'<header class = "primaryheader">'+
-	'<span>Samei Group</span>'+
-		 '</header>'+
-
-'<header class = "secondaryheader">'+
+document.getElementById("navMenu").innerHTML =
  '<label for="show-menu" class="show-menu">Show Menu</label>'+
     '<input type="checkbox" id="show-menu" role="button">'+
         '<ul id="menu">'+
@@ -32,8 +27,7 @@ document.getElementById("headerPage").innerHTML =
                 '<li><a href="prospective_student.html">Prospective Student</a></li>'+
             '</ul>'+
         '</li>'+
-		'</ul>'+
-	'</header>'+
+		'</ul>';
 
-'<header class = "decorationheader">'+
-	'</header>';
+
+
