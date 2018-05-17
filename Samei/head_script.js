@@ -7,7 +7,7 @@ document.getElementById("headerPage").innerHTML =
  '<label for="show-menu" class="show-menu">Show Menu</label>'+
     '<input type="checkbox" id="show-menu" role="button">'+
         '<ul id="menu">'+
-        	'<li><a href="about.html">About</a></li>'+
+        	'<li><a href="index.html">About</a></li>'+
         	'<li>'+
             '<a href="research.html">Research</a>'+
             '<ul class="hidden">'+
