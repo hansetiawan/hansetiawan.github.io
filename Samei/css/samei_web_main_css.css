@@ -14,10 +14,24 @@ body {
 	line-height: 1.3em;
 	vertical-align: top;
 	z-index:-999;
-	background-image:url(../image/graduate.jpg);
-	background-size: 1400px 500px; /* Dont do percent, picture will weirdly shrink*/
+	background-image:url(../image/action_2.png);
+	background-size: 1400px 700px; /* Dont do percent, picture will weirdly shrink*/
 	background-position: top center;
 	background-repeat:no-repeat;
+}
+
+pfoot {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	line-height: 120%;
+	vertical-align: middle;
+	text-align:left;
+	font-family:"Calibri";
+	font-size: 85%;
+	z-index: -999;
 }
 
 p {
@@ -70,6 +84,15 @@ td {
 	vertical-align: middle;
 }
 
+.decorationfooter {
+	height: 15px;
+	background-color: #848486;
+	clear:both;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
 span {
   display: inline-block;
   vertical-align: middle;
@@ -78,13 +101,20 @@ span {
   font-size:50px;
 }
 
+.footer{
+	background-color: #616162;
+	text-align: left;
+	height: 60px;	
+	padding-top: 8px;
+}
+
 .main {
 	background-color: #DCDCDC;
 	width: 70%; /* percent looks weird*/
 	margin-top: 6.5%;	
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	border-bottom-width: 0px;
 	padding-left: 0px;
 	padding-top: 0px;
