@@ -5,7 +5,7 @@ document.getElementById("footerPage").innerHTML =
 	'<table width="68%" height="95%" border="0" align="center">'+
   '<tbody>'+
     '<tr>'+
-		'<td width="17%"><img src="image/duke_logo.png" width=110px alt="Duke Logo"/></td>'+
+		'<td width="17%"><a href="https://duke.edu/" target="_blank" rel="noopener"><img src="image/duke_logo.png" width=110px alt="Duke Logo"/></a></td>'+
       '<td width="33%"><pfoot>© Copyright 2018 Duke University</pfoot><br>'+
         '<pfoot>PI: Ehsan Samei, PhD, DABR, FAAPM, FSPIE, FAIMBE</pfoot></td>'+
       '<td width="34%">'+
