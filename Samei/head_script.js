@@ -8,6 +8,13 @@ document.getElementById("headerPage").innerHTML =
     '<input type="checkbox" id="show-menu" role="button">'+
         '<ul id="menu">'+
         	'<li><a href="./">About</a></li>'+
+			'<li>'+
+			'<a href="people.html">People</a>'+
+			'<ul class="hidden">'+
+				'<li><a href="alumni.html">Alumni</a></li>'+
+				'<li><a href="https://cipg.duhs.duke.edu/content/staff" target="_blank" rel="noopener">CIPG Members</a></li>'+
+			'</ul>'+
+			'</li>'+
         	'<li>'+
             '<a href="research.html">Research</a>'+
             '<ul class="hidden">'+
@@ -17,14 +24,12 @@ document.getElementById("headerPage").innerHTML =
 				'<li><a href="#">Topic 4</a></li>'+
 				'<li><a href="#">Topic 5</a></li>'+
             '</ul>'+
-        '</li>'+
-			'<li>'+
-			'<a href="people.html">People</a>'+
+        	'</li>'+
+			'<li><a href="publications.html">Publications</a>'+
 			'<ul class="hidden">'+
-				'<li><a href="alumni.html">Alumni</a></li>'+
+				'<li><a href="notable_publication.html">Notable Publications</a></li>'+
 			'</ul>'+
-		'</li>'+
-			'<li><a href="publications.html">Publications</a></li>'+
+			'</li>'+
         	'<li><a href="resources.html">Resources</a></li>'+
 			'<li>'+
             '<a href="contact.html">Contact</a>'+

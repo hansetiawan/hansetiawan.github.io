@@ -6,10 +6,10 @@ document.getElementById("footerPage").innerHTML =
   '<tbody>'+
     '<tr>'+
 		'<td width="17%"><a href="https://duke.edu/" target="_blank" rel="noopener"><img src="image/duke_logo.png" width=110px alt="Duke Logo"/></a></td>'+
-      '<td width="33%"><pfoot>© Copyright 2018 Duke University</pfoot><br>'+
-        '<pfoot>PI: Ehsan Samei, PhD, DABR, FAAPM, FSPIE, FAIMBE</pfoot></td>'+
-      '<td width="34%">'+
-		'<pfoot>Carl E. Ravins Advanced Imaging Laboratory</pfoot><br>'+
+      '<td width="30%"><pfoot>© Copyright 2018 Duke University</pfoot><br>'+
+        '<pfoot>The Samei Group</pfoot></td>'+
+      '<td width="37%">'+
+		'<pfoot>Carl Ravins Advanced Imaging Laboratory</pfoot><br>'+
 		'<pfoot>Hock Plaza, Suite 302</pfoot><br>'+
 		'<pfoot>2424 Erwin Road, Durham, NC 27705</pfoot><td width="0%"></td>'+
       '<td width="16%">'+
