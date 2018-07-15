@@ -26,8 +26,9 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.4s;
+	font-family:"Calibri","Helvetica",'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', 'Helvetica', "Arial", 'sans-serif';
 }
 
 .active, .accordion:hover {

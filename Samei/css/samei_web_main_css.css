@@ -43,7 +43,7 @@ p {
 	line-height: 120%;
 	vertical-align: middle;
 	text-align:left;
-	font-family:"Calibri";
+	font-family:"Calibri","Helvetica",'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', 'Helvetica', "Arial", 'sans-serif';
 	font-size: 18px;
 	z-index: -999;
 }
@@ -168,6 +168,21 @@ span {
 	padding-bottom: auto;
 	font-size: 24px;
 	text-align: auto;
+	font-style: italic;
+	z-index: -999;
+}
+
+.heading3 {
+	width:  90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: auto;
+	padding-right: 0px;
+	padding-bottom: auto;
+	font-size: 14px;
+	text-align: justify;
 	font-style: italic;
 	z-index: -999;
 }

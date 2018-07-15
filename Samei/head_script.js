@@ -12,22 +12,22 @@ document.getElementById("headerPage").innerHTML =
 			'<a href="people.html">People</a>'+
 			'<ul class="hidden">'+
 				'<li><a href="alumni.html">Alumni</a></li>'+
-				'<li><a href="https://cipg.duhs.duke.edu/content/staff" target="_blank" rel="noopener">CIPG Members</a></li>'+
+				'<li><a href="https://cipg.duhs.duke.edu/content/members" target="_blank" rel="noopener">CIPG Members</a></li>'+
 			'</ul>'+
 			'</li>'+
         	'<li>'+
             '<a href="research.html">Research</a>'+
             '<ul class="hidden">'+
-                '<li><a href="#">Topic 1</a></li>'+
-                '<li><a href="#">Topic 2</a></li>'+
-				'<li><a href="#">Topic 3</a></li>'+
-				'<li><a href="#">Topic 4</a></li>'+
-				'<li><a href="#">Topic 5</a></li>'+
+                '<li><a href="dosimetrics.html">Dosimetrics</a></li>'+
+                '<li><a href="qualimetrics.html">Qualimetrics</a></li>'+
+				'<li><a href="informatics.html">Performance Informatics</a></li>'+
+				'<li><a href="vct.html">Virtual Clinical Trials</a></li>'+
+				'<li><a href="quantitative.html">Quantitative Imaging</a></li>'+
             '</ul>'+
         	'</li>'+
 			'<li><a href="publications.html">Publications</a>'+
 			'<ul class="hidden">'+
-				'<li><a href="notable_publication.html">Notable Publications</a></li>'+
+				'<li><a href="notable_publications.html">Notable Publications</a></li>'+
 			'</ul>'+
 			'</li>'+
         	'<li><a href="resources.html">Resources</a></li>'+
