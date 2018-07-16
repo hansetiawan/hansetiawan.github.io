@@ -1,13 +1,13 @@
 document.getElementById("headerPage").innerHTML =
 '<header class = "primaryheader">'+
-	'<span>Samei Group</span>'+
+	'<span><a href="index.html" style="text-decoration: none; color: white;">Samei Group</a></span>'+
 		 '</header>'+
 
 '<header class = "secondaryheader">'+
  '<label for="show-menu" class="show-menu">Show Menu</label>'+
     '<input type="checkbox" id="show-menu" role="button">'+
         '<ul id="menu">'+
-        	'<li><a href="./">About</a></li>'+
+        	'<li><a href="index.html">About</a></li>'+
 			'<li>'+
 			'<a href="people.html">People</a>'+
 			'<ul class="hidden">'+
