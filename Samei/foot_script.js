@@ -9,7 +9,7 @@ document.getElementById("footerPage").innerHTML =
       '<td width="30%"><pfoot>© Copyright 2018 Duke University</pfoot><br>'+
         '<pfoot>The Samei Group</pfoot></td>'+
       '<td width="37%">'+
-		'<pfoot>Carl Ravins Advanced Imaging Laboratory</pfoot><br>'+
+		'<pfoot>Ravins Advanced Imaging Laboratory</pfoot><br>'+
 		'<pfoot>Hock Plaza, Suite 302</pfoot><br>'+
 		'<pfoot>2424 Erwin Road, Durham, NC 27705</pfoot><td width="0%"></td>'+
       '<td width="16%">'+
