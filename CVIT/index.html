@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122915918-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122915918-1');
+</script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/samei_web_main_css.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/dropdown_nav_css.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/slideshow_style.css">
+		<title>About | Samei Group</title>
+	</head>
+	
+	
+<body>
+		<nav id="headerPage"></nav>
+		<script src="head_script.js"></script>
+
+		<div class = "main">
+  			
+  			<nav id="slideShow"></nav>
+		  <script src="slideshow.js"></script>
+			<br>
+		  <table width="95%" border="0" cellspacing="2" align="center">
+			  <tbody>
+			    <tr>
+			      <td width="19%" align="right" style="padding-top: 8px"><p><img src="image/people/samei_square.png" alt="Samei photo" width="100%" align="right"/></p>
+		          <p style="text-align: right">Ehsan Samei, PhD</p></td>
+			      <td width="81%"><p class = "heading1" style="font-size: 24px"><em><strong>A leading research-clinical consortium in imaging science</strong></em></p>
+                    <p style="text-align: justify">Samei Lab is a leading research-clinical consortium in the  science and practice of precision medicine in imaging to advance human health.  The lab operates based on three core principles of scientific rigor, clinical relevance,  and clinical translation. We apply scientific methods to devise and refine  patient-relevant advances in the areas of quality and safety metrology and  optimization, quantitative imaging, and virtual clinical trials with  anticipated clinical endpoint.&nbsp; Key expertise in use include simulation of  human body and disease, simulation of the imaging processes, image segmentation  and processing, quality and safety metrology, informatics, 3D printing,  machine-learning, and human and machine perception.</p>
+                    <p class="heading3" style="text-align: justify">&nbsp;</p>
+<p style="text-align: justify"><em>The Samei Lab is a part of the Carl E. Ravin Advanced Imaging Laboratories</em></p></td>
+		        </tr>
+		      </tbody>
+		  </table>
+		</div>
+	<nav id="footerPage"></nav>
+<script src="foot_script.js"></script>	
+	
+
+<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		
+		function plusDivs(n) {
+  			showDivs(slideIndex += n);
+		}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	
+	var myIndex = 0;
+
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 20000); // Change image every 20 seconds
+}
+	</script>
+	
+</body>
+</html>
+
+
