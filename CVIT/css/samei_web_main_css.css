@@ -1,5 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
+.rotate {
+  /* FF3.5+ */
+  -moz-transform: rotate(-90.0deg);
+  /* Opera 10.5 */
+  -o-transform: rotate(-90.0deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform: rotate(-90.0deg);
+  /* IE6,IE7 */
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* Standard */
+  transform: rotate(-90.0deg);
+}
+
 table td{
     margin: auto;
 	display: table-cell;
@@ -12,6 +27,7 @@ table th{
 	display: table-cell;
   	vertical-align: middle;
 	border: 1px solid black;
+	font-size: 15px;
 }
 
 table{
