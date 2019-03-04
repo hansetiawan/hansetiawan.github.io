@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122915918-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122915918-1');
+</script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/samei_web_main_css.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/dropdown_nav_css.css">
+		<title>Research | Samei Group</title>
+	</head>
+	
+	<body>
+		<nav id="headerPage"></nav>
+		<script src="head_script.js"></script>
+
+		<div class = "main">
+  			<p class="page_title" id="topresearch"><strong>Research</strong> Overview</p>
+		  <p style="text-align:center"><img src="image/research_overview.PNG" width=92% alt="research overview diagram"/></p>
+		  <p class="heading2">The broad  objective of the Center for Virtual Imaging Trials is to develop and provide a  comprehensive virtual platform to assess the clinical performance of medical  imaging technologies or applications from design to use. In its first phase,  the Center focuses on Computed Tomography (CT). </p>
+		  <p><br>
+		    The  accelerating complexity of medical imaging devices and methods has largely  outpaced the field&rsquo;s ability to evaluate and optimize their design and clinical  use. Doing so through clinical trials is often not feasible or definitive due  to ethical limitations, expense, time requirements, or a fundamental lack of  ground truth (exact patient anatomy and condition). Most current approaches to  assess imaging technologies outside of clinical trials rely on simplistic  models and subjective perception of image aesthetics, the results from which  cannot readily predict clinical efficacy. </p>
+		  <p>&nbsp;</p>
+		  <p>To fill this gap, we will establish  the Center for Virtual Imaging Trials with the broad objective to develop a  comprehensive virtual platform for assessment of medical imaging systems and  applications; our initial focus is on computed tomography (CT), both due to its  widespread medical utility and its status as the largest source of medical  radiation. Virtual imaging trials offer an efficient means to evaluate imaging  concepts and technologies <em>in silico </em>by simulating the patient, imaging  system, and interpreter. Such virtual trials can be conducted quickly and cost  effectively on a computer, providing researchers a practical way to answer  fundamental questions using the precise controls and known ground truth  possible only in the virtual domain. These virtual trials enable objective  optimization of new real imaging technologies (hardware, and software) to  minimize radiation risk while providing the desired quantitative accuracy. By  accelerating and improving imaging technologies&rsquo; evaluation and optimization,  virtual trials support quality, safety, and effective practice of  patient-centered care. </p>
+		  <p><br>
+		    To achieve its  objective, the Center will develop, refine, and disseminate the essential  resources to realistically model and represent a) patients, b) imaging systems,  and c) image analysis and interpretation. These resources comprise the three  Technology Research and Development (TRD) projects. The TRDs will work  synergistically with the Collaborative Projects (CPs), and resources will be  made available to Service Projects (SPs). A Technology Training and  Dissemination (TTD) component will distribute the Center&rsquo;s resources and provide  the necessary training. Administration provides infrastructure, oversight, and  integration. The overall specific aims are to (1) develop, consolidate, and  streamline the required components to enable virtual imaging trials of existing  and emerging CT imaging methods, (2) position virtual trials as an alternative  methodology to quantify, evaluate, and optimize CT imaging in terms of clinical  quality and safety, and (3) disseminate to the research community validated  tools for efficient virtual trials in CT and train researchers to use them  effectively. Using state-of-the-art simulation and analysis methods, the Center  will foster rigorous and reproducible scientific design, prediction, and  practice and will provide the first comprehensive platform to assess the  complete trajectory of an imaging technology from design to use. </p>
+		  <p>&nbsp;</p>
+			<hr width="75%"> 
+		  <p>&nbsp;</p>
+			<p><strong>TRD1: Virtual Patients. TRD1</strong> develops a suite of tools to produce realistic, customizable virtual subjects or phantoms for CT imaging research. It builds upon our popular 4D extended cardiac-torso (XCAT) phantoms [23-25] that have found broad use in imaging research, resulting in over 130 papers in PubMed <em>excluding</em> our own. Although widely used, the current XCAT library (60 adult and 90 pediatric models in total) does not cover a range of anatomies reflective of the population at large nor does it fully model stages of pregnancy, patient motions/deformations, blood flow/contrast perfusion, or tissue heterogeneities. 
+</p>
+			<p>Drawing from the large, existing Duke University CT image database, we will greatly expand the XCAT library to encompass a broad range of age, height, and weight combinations for both sexes. indicative of patients seen in a hospital-scale population. We will further develop highly detailed models for pregnancy, update the XCAT motion models, expand the circulatory system to more realistically simulate the dynamics of blood flow and contrast perfusion, and develop new methods to model the tissue heterogeneity within the body including disease-related abnormalities. These tools will be packaged into a framework from which researchers will be able to generate virtual populations consisting of unlimited numbers of realistic phantoms, on demand, and with user-defined anatomical characteristics, lesions, motion, and contrast. 
+		  </p>
+		  <p>&nbsp;</p>
+			<p><strong>TRD2: Virtual Scanners</strong>. Taking the existing and new resources of <strong>TRD1</strong> as an input and building on the team’s work to date, <strong>TRD2</strong> will develop a rapid, accurate, and realistic CT simulator capable of generating 3D and 4D CT images of highly detailed patient-specific anatomy and function. The simulator will emulate specific manufacturer and scanner configurations and a variety of clinical protocols. The work builds on our considerable expertise [26-30] in developing simulation tools for assessing image quality and dose in x-ray based technologies. Despite the reach and utility of these tools, however, current simulators are limited in their accuracy and realism. This is due to the computationally intensive nature of radiation transport methods and the needed spatial and temporal resolution for generating realistic images. To overcome these limitations, in this TRD, we combine ray-tracing and Monte Carlo approaches into a hybrid simulation platform where high spatial details are provided by ray-tracing while precise scatter and dose estimates are provided by Monte Carlo, both implemented in a GPU environment for maximum speed. The hybrid simulator will have fine control for all key scanner parameters (e.g., kV, mA, pitch, TCM, recon, etc.). Specific focus will be placed on realism of scanner simulations for both existing and new CT technologies. Towards that end, in close cooperation with manufacturers, we will encode manufacturer- and scanner-specific configurations as individual modules. That will include respective manufacturer reconstruction algorithms. The simulator, which will have additional options for generic and user-defined configurations, will be made accessible to the research community with both GUI-based and script-based controls. 
+		  </p>
+		  <p>&nbsp;</p>
+			<p><strong>TRD3: Virtual Interpretations</strong>. To be effective, a VIT platform should emulate the entire imaging chain from patient to imaging system to clinical interpretation. With the first two aspects undertaken by <strong>TRDs 1 and 2</strong>, this TRD will develop and provide “virtual interpreters” to deduce clinically-relevant information from the image data. We have had considerable prior success in the fields of observer models, machine-learning, and radiomics quantification. We have previously demonstrated the clinical potential of these approaches, including validations with radiologists and artificial interpretations.31-33 However, prior offerings have been isolated to individual projects and not consolidated into a single virtual interpreter toolset.
+			  In this TRD, we will advance the state-of-the-art and provide ready access to effective resources in task-based performance analysis. We will develop and consolidate an interface and comprehensive toolset to extract and analyze virtual image data. The toolset will include principle-informed and data-informed observer models, radiomics quantification of high-dimensional morphology and texture, and lesion and organ segmentation tools. The project incorporates computer vision and machine learning processes that use knowledge from large datasets to quantify imaging performance and its underlying contributing factors. This TRD further integrates its virtual interpreter toolset with the virtual patient (from <strong>TRD1</strong>) and virtual CT system (from <strong>TRD2</strong>) into a consolidated platform for accurate and realistic virtual CT trials and datasets. The framework aims to enable evaluation and optimization across a wide variety of CT technologies. Further, as real-world clinical trials are designed to evaluate imaging systems in the context of achieving certain clinical tasks, <strong>TRD3</strong>, in its last Aim, tests the equivalency of the consolidated platform in the context of two representative clinical tasks of liver and lung lesion detection. 
+		  </p>
+			<p>&nbsp;</p>
+			<p><strong>Technology Training and Dissemination (TTD)</strong>. The Center for Virtual Imaging Trials will disseminate the Center’s tools and resources for virtual imaging and the advances developed through <strong>TRDs 1-3</strong>. It will educate and train researchers how to utilize the tools with user input or integrate them with user methods, thus providing the necessary support to users to effectively utilize the resources in their own research. The Center’s training plan includes in-person training through workshops (at Duke and at national meetings), residencies at Duke, and ongoing updates through seminars and scientific forums. These training activities will leverage our strong and close ties with other departments, programs, and entities within Duke; seminars and forums will be accessible in real-time via web-conferencing to interested parties at other institutions. The Center’s dissemination plan includes resources to download our simulation tools, documentation (user manuals, video guides), support for running and execution, and access to preconfigured datasets or subcomponents of the simulation tools (ideal for Service Projects). The resources to be disseminated and trained on include the 3D and 4D patient models (<strong>TRD1</strong>), the CT simulation programs and pre-generated CT images (<strong>TRD2</strong>), and the task-based analysis tools (<strong>TRD3</strong>). Dissemination will be via the Center website after applicable licensing or registration (see <strong>TTD</strong> component and <strong>Resource Sharing Plan</strong>), publicly accessible user-community forums, publications, and conference presentations. We will provide collaborative support on grants/projects initiated by end users, and solicit collaboration ideas through a form on the Center’s website. </p>
+			<p>&nbsp;</p>
+			<hr width="75%"> 
+		  <p>&nbsp;</p>
+			<p>Colaborative Projects</p>
+			<p><img src="image/cp1.PNG" width="432" height="292" alt=""/></p>
+		  <p>CP1.  Optimize multiple-material decomposition in spectral CT<br>
+              CP2. Develop effective motion compensation techniques in interventional CT<br>
+              CP3. Develop effective deformable image registration techniques in radiation  therapy CP4. Determine accurate CT acquisition for cardiac Fractional Flow  Reserve<br>
+              CP5. Validate pulmonary vascular and cardiac volume in non-contrast non-gated  CT CP6. Quantitatively optimize PET/CT for improved cancer diagnosis and  therapy<br>
+              CP7. Optimize photon counting CT (PCCT) for radiomic quantification<br>
+          CP8. Assess scaling requirement for large-scale deep learning through virtual  datasets CP9. Assess and optimize robustness of radiomic features across CT  scanners </p>
+		  <p>&nbsp;</p>
+		  <p>Service Projects</p>
+		  <p><img src="image/cp1.PNG" width="432" height="292" alt=""/></p>
+		  <p>SP1. &nbsp;Validate noise stabilization and autocalibration  techniques in COPD evaluation <br>
+		    SP2. &nbsp;Optimize coronary artery interventions  cardiorespiratory motion patterns <br>
+		    SP3. &nbsp;Personalize respiratory motion correction for  low-dose PET/CT <br>
+		    SP4. &nbsp;Assess radiation risk to astronauts for deep  space missions <br>
+		    SP5. &nbsp;Design new imaging in radiation therapy considering  respiratory-cardiac motion <br>
+		    SP6. &nbsp;Develop advanced reconstruction methods for  four-dimensional cone beam CT <br>
+		    SP7. &nbsp;Develop advanced CT dosimetry techniques <br>
+		    SP8. &nbsp;Assess impact of CT system design on AI  processing of CT images <br>
+		    SP9. &nbsp;Personalize motion models and imaging for image  guided radiation therapy <br>
+	      SP10. &nbsp;Image similarity filter optimization for  low-dose perfusion CT <br>
+	</p>
+	</div>
+		</div>
+		    <nav id="footerPage"></nav>
+	        <script src="foot_script.js"></script>
+	      </p>
+	</div>
+	</body>
+</html>
+
